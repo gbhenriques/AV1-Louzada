@@ -1,0 +1,174 @@
+body {
+	background-color: #060606;
+    background-image: url(../img/imagem-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+	color: #fff;
+	font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+#banner {
+	background-color: rgba(0, 0, 0, .5);
+	height: 76px;
+	padding: 30px 70px 30px 70px;
+}
+
+#banner h1 {
+    float: left;
+    margin: 0;
+}
+
+#banner nav {
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+#banner ul {
+    margin: 0;
+}
+
+#banner nav ul li {
+    display: inline-block;
+    width: 100px;
+}
+
+#banner nav ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+h2 {
+    line-height: 6;
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px -2px 10px #060606;
+    text-transform: uppercase;
+}
+
+#descricao p {
+    width: 800px;
+    word-wrap: break-word;
+    text-align: justify;
+    text-indent: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+#descricao h3 {
+    line-height: 6;
+    margin: 0px;
+    text-align: justify;
+    text-shadow: 2px -2px 10px #060606;
+    text-transform: uppercase;
+    padding-left: 150px;
+    font-size: 30px;
+}
+
+/* Formatação das imagens do lol */
+
+figure.fotoslol {
+    position: relative;
+    left: 25px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 500px;
+}
+
+figure.fotoslol img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.fotoslol figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition-duration: 1s;
+}
+
+figure.fotoslol:hover figcaption {
+    opacity: 1;
+}
+
+/* Formatação das imagens do lor */
+
+figure.fotoslor {
+    position: relative;
+    top: -309px;
+    left: 650px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 500px;
+}
+
+figure.fotoslor img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.fotoslor figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition-duration: 1s;
+}
+
+figure.fotoslor:hover figcaption {
+    opacity: 1;
+}
+
+/* Formatação das imagens do valorant */
+
+figure.fotosvalorant {
+    position: relative;
+    top: -619px;
+    left: 1250px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 500px;
+}
+
+figure.fotosvalorant img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.fotosvalorant figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition-duration: 1s;
+}
+
+figure.fotosvalorant:hover figcaption {
+    opacity: 1;
+}
