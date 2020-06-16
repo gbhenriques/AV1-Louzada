@@ -58,5 +58,3 @@ var vetor2 = new Array(3);
 function contato() {
     window.alert("Esta página ainda não está pronta, desculpe.")
 }
-
-
